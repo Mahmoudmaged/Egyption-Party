@@ -1,0 +1,470 @@
+*
+{
+    margin:0;
+    padding:0;
+    
+    
+}
+.ff
+{
+    transition:all 1s 1s ;
+}
+/*start nav bar*/
+.navnav 
+{
+  background-color:#1a1a1a;
+
+    padding: 0;
+}
+.one
+{
+    padding: 0;
+}
+.brand_logo
+{
+    padding: 0px 10px;
+    height:70px;
+    width: 90px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+
+    color:#fff;
+    font-weight:600;
+   
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+  color:  #ec3237 ;
+}
+
+.current:hover
+{
+      border-bottom: 2px solid #ec3237;
+}
+
+
+
+.nav-item
+{
+    height: 70px;
+    margin-left: 30px;
+}
+/*end nav bar*/
+/*start  home*/
+.home
+{
+    width: 100%;
+    height:700px;
+}
+.home-laye
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+    color: #FFF;
+}
+ 
+.cover_title
+{
+   font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+    margin-bottom: 15px;
+}
+
+.cover_subtitle
+{
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.home-a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: all 1s;
+}
+.home-a:hover
+{
+    color:rgba(236, 51, 55, 0.7);
+    text-decoration: none;
+    background-color: #fff;
+ 
+}
+.section_scroll
+{
+    padding-top:20px;
+    position: absolute;
+    left: 50%;
+    bottom:50px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    animation-name: anime;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    transition: bottom 1s;
+}
+@keyframes anime
+{
+    0%{bottom:50px;}
+    100%{bottom:30px;}
+}
+/*end home*/
+
+/*About */
+.about-desc 
+{
+    padding:70px 0px;
+}
+.about-desc h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+        margin-bottom: 15px;
+}
+.about-desc p
+{
+    color: #777777;
+    font-weight: 300px;
+}
+.profile_title
+{
+        font-weight: 700;
+    text-transform: uppercase;
+}
+.about-p
+{
+    font-weight: 300;
+    color: #777777;
+}
+.social 
+{
+   padding:20px 0px; 
+}
+.social ul li
+{
+    display: inline;
+ 
+}
+.social ul li a
+{
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 14px 16px;
+    text-align: center;
+    border: 1px solid #999999;
+    color: #777777;
+}
+.social ul li:hover a
+{
+    color: #ffffff;
+      background:  #ec3237 ;
+    border: none;
+}
+.progress_wrap
+{
+    margin-top:20px;
+}
+.progress-bar {
+    background-color: #ec3237;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+.progress_title {
+    display: inline-block;
+    color: #777777;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.muted {
+    color: #777777;
+}
+.pull-right {
+    float: right!important;
+}
+.go-to-work-a
+{
+    padding: 14px 30px ;
+    color:#ffffff;
+    border-radius: 0;
+    margin-bottom:70px;
+}
+
+
+/*end about*/
+
+
+/* strat work*/
+.work
+{
+    background-color: #f5f5f5;
+}
+.section_title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+     margin-bottom: 15px;
+}
+.section_subtitle
+{
+        color: #777777;
+        margin-bottom: 15px;
+}
+.member-work
+{
+    background-color: #ffffff;
+}
+.member-work-icon i
+{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 1.4em;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+}
+.member-work:hover i
+{
+    color: #fff;
+    background-color:#ec3237 ;
+}
+.member-work-title
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+ .member-work:hover h4
+{
+    color:#ec3237 ;
+}
+
+.member-work-p
+{ 
+    font-size:20px;
+    font-weight:300;
+    line-height: 1.6em;
+    color:#777777;
+    margin-bottom: 15px;
+}
+.go-to-portofile
+{
+    border-radius: 0;
+    margin:70px auto;
+    padding: 14px 20px;
+}
+/* end work*/
+
+/*Start part4*/
+  .part4
+{
+    background-image: url(../images/project-counter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.part4-icon
+{
+     color: #ec3237;
+    text-align: center;
+    margin: 15px;
+}
+.part4-span
+{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.part4-h4
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec3237;
+    margin-bottom: 15px;
+}
+
+
+.in
+{
+      padding: 15px 0px;
+      border: 1px solid rgba(255,255,255,.1);
+
+}
+/*End   part4*/
+
+/*Start part prtofile*/
+
+.prto-desc h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.prtoli
+{
+    display: inline;
+     padding:10px 15px;
+    border: 2px solid #dddddd;
+    
+}
+.prtoli a
+{
+    color: black;
+    text-decoration: none;
+}
+.prtoli:hover a 
+{
+    color:#fff;
+    text-decoration: none;
+}
+.prtoli:hover 
+{
+   background-color:#ec3237;
+    border: 2px solid #ec3237;
+    text-decoration: none;
+}
+.extra
+{
+    bottom:80px;
+    left:47%;
+}
+
+.extra i
+{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius:50%;
+    background: black;
+}
+.card:hover i
+{
+    background-color: #ec3237;
+}
+.get-in-touch 
+{
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 0;
+    
+    
+}
+/*End prtofile*/
+
+
+/* Start part6*/
+
+
+.part6
+{
+    width: 100%;
+
+    background-image: url(../images/client-testimonial.jpg);
+    background-attachment: fixed;
+}
+.sliderimg
+{
+    border-radius:50% ; 
+    border:4px solid #ec3237;
+    margin-left: 40%
+}
+.slid-p
+{
+  font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+.slider-h3
+{
+    text-align: center;
+color: #ec3237;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slider-h4
+{
+    text-align: center;
+        color: #ffffff;
+    cursor: move;
+}
+/* End part6*/
+/* start hire me*/
+.contact_title
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px
+}
+.hier-p
+{
+   font-weight: 300;
+    color: #777777;
+
+}
+.heir-icon
+{
+ color: #777777;
+}
+.heir-p
+{
+    color: #777777;
+     font-weight: 300;
+}
+.heir-pp a
+{
+color: #c62d32;
+font-weight: 300;
+    text-decoration: none;
+}
+.icon2
+{
+    width: 30px;
+    height: 30px;
+    padding: 16px 10px 16px 0px;
+    color: gray;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* 
+End hire me*/
+/*last part*/
+.copyright_text {
+    margin: 0px;
+    font-size: 1em;
+    color: #9e9e9e;
+}
+.link {
+    display: inline-block;
+    color: #BF360C;
+}
+.link:hover
+{
+    text-decoration: none;
+    display: inline-block;
+    color: #BF360C;
+}
+/*end*/
